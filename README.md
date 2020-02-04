@@ -12,7 +12,7 @@
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](prcp_1.png)
+  ![precipitation](Plots/prcp_1.png)
 
 ### Station Analysis
 
@@ -32,7 +32,7 @@
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](temp_freq.png)
+    ![station-histogram](Plots/temp_freq.png)
 
 - - -
 
@@ -84,7 +84,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
 
-    ![temperature](avg_temp.png)
+    ![temperature](Plots/avg_temp.png)
 
 ### Daily Rainfall Average
 
@@ -100,6 +100,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  ![daily-normals](temp_min_avg_max.png)
+  ![daily-normals](Plots/temp_min_avg_max.png)
 
 
